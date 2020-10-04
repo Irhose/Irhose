@@ -1,0 +1,36 @@
+
+body{
+    background-image: url('Pictures/alexa-williams.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    box-sizing: border-box;
+}
+.header-flex-container{
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+}
+.header-flex-container > span{
+    background-color: beige;
+    margin: 10px;
+    padding: 20px;
+}
+.buffer{
+    height: 180px;
+}
+.mine{
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    width: 50px;
+}
+.but:hover{
+background-color:rgba(0, 0, 0, 0.623) ;
+}
+a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.623);
+    transition-duration: 1s;
+}
